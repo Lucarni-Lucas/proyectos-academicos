@@ -4,8 +4,8 @@ Este repositorio contiene todos los proyectos desarrollados durante mi trayector
 
 ## Proyectos
 
-1. [Comedor UNQ](https://github.com/Lucarni-Lucas/Proyectos-Academicos/tree/main/Proyecto1-Smalltalk)
-2. [Vinchucas](https://github.com/Lucarni-Lucas/Proyectos-Academicos/tree/main/Proyecto2-Java)
+1. [Programación con Objetos](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/smalltalk-poo1)
+2. [Sistemas Operativos](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/python-so)
 
 Cada proyecto tiene su propia carpeta, que incluye el código, la documentación y cualquier material relevante.
 
