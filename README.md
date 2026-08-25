@@ -5,9 +5,11 @@ Este repositorio contiene todos los proyectos desarrollados durante mi trayector
 
 ## 🚀 Proyectos
 
-1. [Programación con Objetos](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/smalltalk-poo1)
-2. [Sistemas Operativos](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/python-so)
-3. [Redes de Computadoras](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/packet-tracer-redes)
+1. [Programación con Objetos](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/smalltalk-poo1) — Modelado del comedor de la UNQ en Smalltalk.
+2. [Sistemas Operativos](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/python-so) — Simulación conceptual de un sistema operativo en Python.
+3. [Redes de Computadoras](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/packet-tracer-redes) — Diseño e implementación de una red empresarial multi-sede en Cisco Packet Tracer.
+4. [Programación Concurrente](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/rle-java-concurrencia) — Compresor RLE concurrente en Java, con buffer y pool de threads implementados con monitores.
+5. [Desarrollo de Aplicaciones](https://github.com/Lucarni-Lucas/proyectos-academicos/tree/main/instagram-JS-React-uis) — Réplica de Instagram: API REST en Express, cliente web en React y app móvil en React Native.
 
 Cada proyecto tiene su propia carpeta, que incluye el código, la documentación y cualquier material relevante.
 
