@@ -1,0 +1,29 @@
+.main-button,
+.main-button-variant {
+  background-color: #5566ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  background-color: #404dc9;
+}
+.main-button--full {
+  width: 100%;
+}
+.main-button-variant {
+  background: #ffffff;
+  color: #333;
+}
+.main-button-variant:hover {
+  background: #e1e1e1;
+}
+
+.main-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

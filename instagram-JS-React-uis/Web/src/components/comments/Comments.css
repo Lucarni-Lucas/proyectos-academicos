@@ -1,0 +1,152 @@
+/* ── CommentList ── */
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  gap: 8px;
+}
+
+.comment-list__empty {
+  text-align: center;
+  color: #8e8e8e;
+  font-size: 14px;
+  padding: 24px 16px;
+}
+
+.comment-list__loading {
+  text-align: center;
+  color: #8e8e8e;
+  font-size: 14px;
+  padding: 24px 16px;
+}
+
+/* ── CommentItem ── */
+.comment-item {
+  display: flex;
+  gap: 12px;
+  padding: 6px 0;
+}
+
+.comment-item__avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  flex-shrink: 0;
+  border: 1px solid #dbdbdb;
+}
+
+.comment-item__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.comment-item__text {
+  font-size: 14px;
+  color: #262626;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.comment-item__message {
+  margin-left: 6px;
+}
+
+.comment-item--caption {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #efefef;
+}
+
+.comment-item__username {
+  font-weight: 600;
+  margin-right: 6px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 14px;
+  color: #262626;
+}
+
+.comment-item__username:hover {
+  text-decoration: underline;
+}
+
+.comment-item__meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.comment-item__time {
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.comment-item__action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: #8e8e8e;
+  padding: 0;
+  font-weight: 600;
+}
+
+.comment-item__action-btn:hover {
+  color: #262626;
+}
+
+/* ── CommentComposer ── */
+.comment-composer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 12px;
+  background: #ffffff;
+}
+
+.comment-composer__input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: inherit;
+  color: #262626;
+  background: transparent;
+  resize: none;
+  min-height: 40px;
+}
+
+.comment-composer__input::placeholder {
+  color: #8e8e8e;
+}
+
+.comment-composer__submit {
+  width: 100%;
+  background: #4f5bd5;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: inherit;
+  transition: background-color 0.15s;
+}
+
+.comment-composer__submit:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.comment-composer__submit:not(:disabled):hover {
+  background-color: #3f4cc7;
+}

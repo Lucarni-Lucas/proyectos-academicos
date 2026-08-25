@@ -1,0 +1,15 @@
+.profile-stats {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+}
+
+.profile-stats__item {
+  font-size: 16px;
+  color: #262626;
+  margin: 0;
+}
+
+.profile-stats__item strong {
+  font-weight: 600;
+}

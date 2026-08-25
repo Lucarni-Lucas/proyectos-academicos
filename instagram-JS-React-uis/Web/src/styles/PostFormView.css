@@ -1,0 +1,27 @@
+.post-form-view {
+  padding: 40px;
+}
+
+.post-form-view__title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #262626;
+  margin: 0 0 16px 0;
+}
+
+.post-form-view__body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 24px;
+}
+.post-form-view__preview {
+  width: 80%;
+}
+.post-form-view__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 60%;
+}

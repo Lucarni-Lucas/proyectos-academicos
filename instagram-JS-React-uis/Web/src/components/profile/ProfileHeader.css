@@ -1,0 +1,39 @@
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 44px;
+  margin-bottom: 24px;
+  padding-top: 8px;
+}
+
+.profile-header__avatar {
+  flex-shrink: 0;
+}
+
+.profile-header__avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #dbdbdb;
+}
+
+.profile-header__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.profile-header__top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-header__username {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0;
+  color: #262626;
+}

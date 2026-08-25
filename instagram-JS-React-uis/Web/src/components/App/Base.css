@@ -1,0 +1,13 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  background-color: #fafafa;
+  color: #262626;
+}
+
+.app-shell__main {
+  flex: 1;
+  min-width: 0;
+  padding: 24px;
+  margin-left: 300px;
+}

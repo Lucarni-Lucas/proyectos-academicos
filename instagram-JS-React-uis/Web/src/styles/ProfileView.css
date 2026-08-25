@@ -1,0 +1,48 @@
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 44px;
+  margin-bottom: 24px;
+  padding-top: 8px;
+}
+
+.profile-avatar {
+  flex-shrink: 0;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.profile-name h2 {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 0;
+  color: #262626;
+}
+
+.profile-numbers {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+}
+
+.profile-numbers h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  color: #262626;
+}
+
+.profile-numbers h3 strong {
+  font-weight: 600;
+}
