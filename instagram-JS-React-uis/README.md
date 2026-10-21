@@ -1,6 +1,6 @@
 # Instagram — API, Web y Mobile
 
-Este proyecto corresponde al **trabajo práctico de la materia Desarrollo de Aplicaciones (UNQ, 1S2026)**, y consiste en una réplica funcional de **Instagram** implementada en tres capas independientes: una **API REST**, un **cliente web** y una **aplicación móvil**.
+Este proyecto corresponde al **trabajo práctico de la materia Construcción de Interfaces de Usuario (UNQ, 1S2026)**, y consiste en una réplica funcional de **Instagram** implementada en tres capas independientes: una **API REST**, un **cliente web** y una **aplicación móvil**.
 
 El objetivo fue construir un backend sobre el modelo de dominio provisto por la cátedra y luego consumirlo desde dos frontends con tecnologías distintas, resolviendo en cada uno los problemas propios de su plataforma: ruteo, manejo de sesión, almacenamiento del token y diseño de la interfaz.
 
